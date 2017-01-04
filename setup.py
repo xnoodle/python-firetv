@@ -9,7 +9,7 @@ setup(
     author='happyleaves',
     author_email='happyleaves.tfr@gmail.com',
     packages=['firetv'],
-    install_requires=['adb==1.1.0+git.master'],
+    install_requires=['adb>=1.1.0+git.master'],
     dependency_links=['https://github.com/google/python-adb/tarball/master#egg=adb-1.1.0+git.master'],
     extras_require={
         'firetv-server': ['Flask>=0.10.1', 'PyYAML>=3.12']
